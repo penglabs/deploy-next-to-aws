@@ -1,8 +1,9 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="flex h-screen w-screen items-center justify-center font-extrabold">
+      <div className="font-extrabold">
+        <h1 className="text-6xl my-8">{process.env.YT_CHANNEL_NAME}</h1>
+        <p className="text-xl">
           Deploying NextJs to AWS EC2 with Github Actions
         </p>
       </div>
